@@ -1,0 +1,17 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "^9.5",
+    "pestphp/pest": "^1.20"
+  },
+  "autoload": {
+    "psr-4": {
+      "Graille\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Migration\\": "tests/migrations/",
+      "Migrations\\": "migrations/"
+    }
+  }
+}
